@@ -25,5 +25,5 @@ func main() {
 		return c.Redirect("https://simasda.kotabogor.go.id/devel/aset/inventaris/kiba/lki/rpt?id=" + penetapanID)
 	})
 
-	log.Fatal(app.Listen(":5000"))
+	log.Fatal(app.Listen(":6000"))
 }
