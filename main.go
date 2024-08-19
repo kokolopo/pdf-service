@@ -27,6 +27,7 @@ func main() {
 			Domain:   "simasda.kotabogor.go.id",
 			Path:     "/",
 			SameSite: "Lax",
+			HTTPOnly: true,
 		})
 
 		// Redirect to the desired URL
