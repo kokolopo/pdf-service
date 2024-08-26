@@ -24,7 +24,7 @@ func main() {
 
 		// Redirect to the desired URL
 		// return c.Redirect("https://simasda.kotabogor.go.id/devel/aset/inventaris/kiba/lki/rpt?id=" + penetapanID)
-		return c.Redirect("https://simasda.kotabogor.go.id/inventaris/aset/inventaris/kibb/lki/rpt?id" + penetapanID)
+		return c.Redirect("https://simasda.kotabogor.go.id/inventaris/aset/inventaris/kibb/lki/rpt?id=" + penetapanID)
 		// https://simasda.kotabogor.go.id/inventaris/aset/inventaris/kibb/lki/rpt?id=5730827
 		// return c.SendString("ok " + penetapanID)
 	})
