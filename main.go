@@ -15,7 +15,7 @@ func main() {
 		// Set cookie
 		c.Cookie(&fiber.Cookie{
 			Name:  "auth_tkt",
-			Value: "7f2617c8d555db55b6b43908c847e3804cac5263e7d255a5a6d3ea9c2824764f3fd846e3e3a043d18f86e3981180adf9f4ae384e993a5668ea2eb825469b874866c826bb197!userid_type:int",
+			Value: "205e856cb5a1801ceef7cb83f4f5b49de153019f52f5fa3c0f07f369bf6f6bec92a52e90e29028a8b3c89ba27c2b5375516e25a5b67eae36d230d5eee870bc9066cbdbf3197!userid_type:int",
 			// Domain:   "simasda.kotabogor.go.id",
 			Path:     "/",
 			SameSite: "Lax",
